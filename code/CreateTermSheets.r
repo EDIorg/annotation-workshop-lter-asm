@@ -84,6 +84,8 @@ datasetsWideDf<-datasetsWideDf[,c("packageid","title",
                                   "organizational units","new_organizational_units",
                                   "No_category","site")]
 
+datasetsWideDf$site<-toupper(datasetsWideDf$site)
+
 library(xlsx)
 rm(wb)
 wb=xlsx::createWorkbook(type='xlsx')
@@ -152,3 +154,4 @@ for (i in 1:31){
 }
 
 openxlsx::saveWorkbook(wb1,"Keyword_Table_sheets1.xlsx",overwrite=T)
+# you still need to edit the spreadsheet to change all the NA's to blanks
