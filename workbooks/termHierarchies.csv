@@ -1,0 +1,991 @@
+"history",|651|248
+"air temperature",|667|668|579|22
+"maximum temperature",|667|668|579|329
+"historical value",|651|248|247
+"forest ecosystems",|173|798|212
+"Arthropods",|395|33|271|45
+"Forest ecosystems",|173|798|212
+"Insects",|395|33|271|45|267
+"Invertebrates",|395|33|271
+"Populations",|799|439
+"Vascular plants",|395|433|951
+"Birds",|395|33|614|69
+"Vertebrates",|395|33|614
+"Amphibians",|395|33|614|32
+"Reptiles",|395|33|614|466
+"Mosses",|395|433|354
+"Mammals",|395|33|614|320
+"Bryophytes",|395|433|354|75
+"Fungi",|395|218
+"Ecology",|651|172
+"Lichens",|395|297
+"Phenology",|651|67|413
+"stand structure",|799|114|119|991
+"forest dynamics",|651|172|427|931
+"measurements",None
+"productivity",|667|716|450
+"biomass",|667|716|68
+"plant properties",|667|917
+"wind",|667|692|633
+"community composition",|667|674|115
+"plant species composition",|651|64|432
+"spatial properties",|667|673
+"long term",|667|670|311
+"permanent plots",|693|801|409
+"succession",|655|656|686
+"primary production",|655|656|449|447
+"plant growth",|655|656|449|428
+"mortality",|655|656|298|353
+"regeneration",|655|656|298|461
+"disease",|655|656|155
+"disturbance",|655|662
+"woody debris",|643|665|638
+"organic matter",|643|393
+"ecosystems",|173
+"forests",|173|798|212|2
+"old growth forests",|173|798|212|2|388
+"trees",|395|433|951|1
+"Decomposition",|655|658|137
+"Detritus",|643|665|148
+"Organic matter",|643|393
+"Respiration",|655|656|88|467
+"Primary production",|655|656|449|447
+"soil properties",|667|714
+"topography",|667|673|589
+"inorganic nutrients",|643|665|266
+"Reference stands",|693|801|984
+"Woody debris",|643|665|638
+"soil respiration",|667|714|528
+"respiration",|655|656|88|467
+"soil",|694|535
+"Nitrogen",|643|666|372
+"Inorganic nutrients",|643|665|266
+"Disturbance",|655|662
+"Soil chemistry",|651|99|521
+"Soil organic matter",|643|393|527
+"Soil respiration",|667|714|528
+"Dendrochronology",|651|67|140
+"Silviculture",|651|17|506
+"community dynamics",|651|172|116
+"trophic structure",|667|674|603
+"species interactions",|655|656|544
+"competition",|655|656|544|120
+"burning",|655|657|79
+"timber harvest",|655|239|587
+"clearcutting",|655|239|587|108
+"debris flows",|698|805|945|948
+"landslides",|698|805|945|946
+"erosion",|655|657|660|181
+"sedimentation",|655|657|660|492
+"sediments",|643|493
+"water temperature",|667|668|579|625
+"Carbon",|643|666|86
+"Microclimate",|667|692|109|340
+"Carbon cycling",|655|656|88
+"Soil moisture",|643|617|525
+"Soil temperature",|667|668|579|530
+"Air temperature",|667|668|579|22
+"community patterns",|799|114|117
+"populations",|799|439
+"streams",|173|41|562
+"liverworts",|395|433|306
+"mosses",|395|433|354
+"bryophytes",|395|433|354|75
+"vegetation",|395|433|612
+"Geomorphology",|651|652|225
+"Clearcutting",|655|239|587|108
+"Evapotranspiration",|655|657|661|185
+"Interception",|667|672|443|268
+"Vegetation",|395|433|612
+"Water balance",|667|618
+"Hydrologic processes",|655|657|661
+"Hyporheic zone",|694|261
+"Stream order",|667|672|560
+"communities",|799|114
+"community structure",|799|114|119
+"plant ecology",|651|172|427
+"canopies",|694|82
+"understory vegetation",|395|433|612|607
+"canopy cover",|667|716|83
+"nutrients",|643|665|384
+"plants",|395|433
+"hydrology",|651|259
+"meteorology",|651|333
+"climatology",|651|333|111
+"climate change",|651|333|111|110
+"atmospheric pressure",|667|692|50
+"vapor pressure",|667|692|611
+"relative humidity",|667|692|611|253|463
+"precipitation",|667|672|443
+"snow accumulation",|667|672|443|514
+"wind direction",|667|692|633|634
+"wind speed",|667|692|633|635
+"snow",|694|513
+"soil temperature",|667|668|579|530
+"photosynthetically active radiation",|667|668|454|418
+"solar radiation",|667|668|454|536
+"soil moisture",|643|617|525
+"monitoring",|655|664|349
+"History",|651|248
+"Mapping",|655|664|323
+"Roads",|694|475
+"Topography",|667|673|589
+"Streamflow",|655|657|661|561
+"seed production",|655|656|449|986
+"reproduction",|655|656|298|465
+"cones",|395|433|914
+"dew point",|667|692|150
+"microclimate",|667|692|109|340
+"water content",|667|672|621
+"temperature",|667|668|579
+"reference stands",|693|801|984
+"growth",|655|656|298|236
+"Remote sensing",|655|664|464
+"Precipitation",|667|672|443
+"Clearcuts",|173|798|212|2|107
+"stream order",|667|672|560
+"water chemistry",|651|99|619
+"suspended solids",|667|691|623|574
+"discharge",|655|657|661|154
+"streamflow",|655|657|661|561
+"dissolved nutrients",|643|665|384|159
+"water",|643|617
+"chemical properties",|667|671
+"concentration",|667|671|913
+"fire management",|655|928|929
+"restoration",|655|469
+"meadows",|173|798|232|330
+"habitats",|799|238
+"demography",|651|682
+"ecology",|651|172
+"stream ecology",|651|172|559
+"population dynamics",|651|172|438
+"floods",|698|805|198
+"aquatic ecosystems",|173|41
+"animals",|395|33
+"vertebrates",|395|33|614
+"amphibians",|395|33|614|32
+"fishes",|395|33|614|196
+"trout",|395|33|614|196|604
+"reptiles",|395|33|614|466
+"Aquatic ecosystems",|173|41
+"Nitrogen cycling",|655|658|383|375
+"Storms",|698|805|556
+"Stream ecology",|651|172|559
+"Water chemistry",|651|99|619
+"Biomass",|667|716|68
+"Floods",|698|805|198
+"Wind",|667|692|633
+"Nutrients",|643|665|384
+"Litterfall",|655|656|305
+"Phosphorus",|643|666|416
+"Roots",|395|433|477
+"Wood",|643|665|637
+"Fire management",|655|928|929
+"Forest floor",|694|213
+"decay rates",|667|136
+"decomposition",|655|658|137
+"nutrient cycling",|655|658|383
+"coarse woody debris",|643|665|638|112
+"invertebrates",|395|33|271
+"logs",|395|433|951|1|310
+"Thinning",|655|239|584
+"detritus",|643|665|148
+"wood",|643|665|637
+"geomorphology",|651|652|225
+"silviculture",|651|17|506
+"hydrologic processes",|655|657|661
+"stream discharge",|655|657|661|154|558
+"long term monitoring",|655|664|349|313
+"runoff",|643|617|479
+"watersheds",|173|798|626
+"species richness",|651|64|546
+"aquatic invertebrates",|395|33|271|42
+"arthropods",|395|33|271|45
+"insects",|395|33|271|45|267
+"macroinvertebrates",|395|33|271|318
+"Aquatic invertebrates",|395|33|271|42
+"Species lists",|799|541|545
+"forest ecology",|651|172|211
+"successional dynamics",|651|172|566
+"biodiversity",|651|64
+"species diversity",|651|64|543
+"tree growth",|655|656|298|236|597
+"tree mortality",|655|656|298|353|598
+"forest disturbance",|655|662|210
+"vascular plants",|395|433|951
+"herbs",|395|433|951|245
+"shrubs",|395|433|951|503
+"Climate change",|651|333|111|110
+"tracers",|693|801|593
+"dissolved oxygen",|643|666|397|161
+"isotopes",|643|276
+"Productivity",|667|716|450
+"Bark",|395|433|54
+"Calcium",|643|666|81
+"Foliage",|395|433|206
+"Forbs",|395|433|951|245|209
+"Nutrient budgets",|667|716|382|1001
+"Shrubs",|395|433|951|503
+"Trees",|395|433|951|1
+"phenology",|651|67|413
+"birds",|395|33|614|69
+"spatial variability",|667|673|539
+"Biogeochemistry",|651|65
+"Water temperature",|667|668|579|625
+"plant cover",|667|716|426
+"diversity",|667|674|166
+"resource management",|655|928
+"survival",|655|656|298|572
+"thinning",|655|239|584
+"terrestrial ecosystems",|173|798
+"seedlings",|395|433|498
+"canopy gaps",|395|433|612|84
+"Evaporation",|655|657|661|185|184
+"Throughfall",|667|672|443|585
+"plant species",|799|541|431
+"LIDAR",|693|705|263|807|953
+"Land cover",|667|673|279
+"Resource management",|655|928
+"land use history",|651|248|281
+"trophic dynamics",|651|172|602
+"light",|667|668|454|299
+"algae",|395|23
+"salamanders",|395|33|614|32|480
+"electrical conductivity",|667|668|176
+"specific conductivity",|667|668|176|122|548
+"surveys",|693|571
+"conservation",|651|124
+"accumulation",|655|8
+"species abundance",|667|674|6|990
+"metabolism",|655|800|332
+"recruitment",|698|710|458
+"census",|693|571|96
+"soil water content",|667|672|621|534
+"time domain reflectometry",|693|801|588
+"droughts",|698|805|168
+"stable isotopes",|643|276|551
+"genetics",|651|67|223
+"leaf area",|667|917|288
+"tundra",|173|798|605
+"fertilization",|655|191
+"foliar nitrogen",|667|671|374|930
+"carbon to nitrogen ratio",|667|671|92
+"specific leaf area",|667|917|288|549
+"leaves",|395|433|293
+"species lists",|799|541|545
+"relative abundance",|667|674|6|462
+"weather",|667|692|627
+"radiation",|667|668|454
+"herbivory",|655|656|544|244
+"fertilizer",|643|192
+"rain",|667|672|443|455
+"nitrogen",|643|666|372
+"carbon",|643|666|86
+"plant biomass",|667|716|68|423
+"bacteria",|395|336|51
+"bacterial production",|655|656|449|53
+"carbon assimilation",|655|656|88|87
+"lakes",|173|41|278
+"water level",|667|672|622
+"stage height",|667|672|622|553
+"net ecosystem exchange",|667|716|883
+"heat flux",|667|205|241
+"eddy covariance",|655|657|659|174
+"eddy covariance",None
+"burns",|698|805|906
+"climate",|667|692|109
+"humidity",|667|692|611|253
+"phosphorus",|643|666|416
+"ammonium",|643|666|372|373|31
+"total dissolved nitrogen",|667|671|374|590|999
+"alkalinity",|667|671|24
+"dissolved organic carbon",|643|666|86|160
+"dissolved inorganic carbon",|643|666|86|158
+"particulates",|643|891
+"particulate organic carbon",|643|666|86|390|892
+"cations",|643|272|93
+"anions",|643|272|34
+"sulfate",|643|666|569|567
+"chemistry",|651|99
+"conductivity",|667|668|176|122
+"freshwater",|694|216
+"limnology",|651|301
+"fungi",|395|218
+"nitrogen-15",|643|666|372|379
+"leaf litter",|395|433|612|291
+"snowfences",|693|801|517
+"ecosystem respiration",|667|716|924
+"snow depth",|667|668|145|515
+"flux",None
+"fires",|698|805|195
+"recovery",|655|457
+"reflectance",|667|668|460
+"thaw depth",|667|668|145|582
+"permafrost",|694|408
+"elevation",|667|673|879|177
+"aspect",|667|673|879|878
+"carbon cycling",|655|656|88
+"bulk density",|667|668|77
+"depth",|667|668|145
+"organic layer",|694|535|392
+"nutrient cycles",|667|716|382
+"photosynthesis",|655|800|417
+"irradiance",|667|668|274
+"dataloggers",|693|801|135
+"pH",|667|671|410
+"longitude",|667|673|308|884|886
+"latitude",|667|673|308|884|885
+"global positioning systems",|693|705|228
+"primary productivity",None
+"leaf area index",|667|917|288|289
+"percent nitrogen",|667|671|405
+"percent carbon",|667|671|403
+"chlorophyll",|643|665|102
+"dissolved organic nitrogen",|643|666|372|394|888
+"nitrate",|643|666|372|373|368
+"soil chemistry",|651|99|521
+"soil water",|643|617|533
+"soil nitrogen",|643|666|372|896
+"soil carbon",|643|666|86|520
+"production",|655|656|449
+"phytoplankton",|395|802|421
+"chlorophyll a",|643|665|103
+"microbial biomass",|667|716|68|339
+"zooplankton",|395|802|641
+"ponds",|173|41|975
+"ph",|667|671|410
+"methane",|643|666|86|334
+"carbon dioxide",|643|666|86|89
+"gases",|643|221
+"calcium",|643|666|81
+"magnesium",|643|666|319
+"potassium",|643|666|442
+"sodium",|643|666|518
+"soluble reactive phosphorus",|643|666|416|537
+"silica",|643|666|505|504
+"chloride",|643|666|101|100
+"lichens",|395|297
+"soil organic matter",|643|393|527
+"percent organic carbon",|667|671|403|406
+"organic carbon",|643|666|86|390
+"nematodes",|395|33|271|362
+"protozoa",|395|336|452
+"gas flux",|667|205|220
+"microbial activity",|655|656|338
+"phosphate",|643|666|416|415
+"gross primary production",|655|656|449|447|905
+"biogeochemistry",|651|65
+"total organic carbon",|667|671|591
+"nitrite",|643|666|372|373|371
+"phaeophytin",|643|665|412|411
+"benthos",|395|882
+"ammonia",|643|666|372|373|30
+"substrates",None
+"groundwater",|694|235
+"nitrification",|655|658|383|375|370
+"mineralization",|655|658|341
+"thermokarst",|173|798|994
+"gastropods",|395|33|271|348|222
+"pitfall traps",|693|801|422
+"water table",|694|235|624
+"rotifers",|395|336|452|478
+"soil texture",|667|714|531
+"photo point imagery",|693|705|263|950
+"litter decomposition",|655|658|137|303
+"soil horizons",|694|535|523
+"nitrogen mineralization",|655|658|383|375|378
+"soil nutrients",|643|665|384|526
+"wildfires",|698|805|195|632
+"models",|693|808|345
+"mark and recapture",|693|801|980
+"flowers",|395|433|200
+"rivers",|173|41|474
+"small mammals",|395|33|614|320|511
+"leaf nutrients",|643|665|384|292
+"litter",|643|665|302
+"translocation",None
+"fine roots",|395|433|477|193
+"litterbags",|693|801|304
+"flowering",|698|710|199
+"herbivores",|799|208|125|243
+"stems",|395|433|612|555
+"plant phenology",|651|67|413|429
+"soil warming",|655|657|660|532
+"warming",|655|657|925
+"predators",|799|208|445
+"seasonality",|667|670|489
+"genomics",|651|67|907
+"genomics",|651|957
+"fluorescence",|667|668|202
+"disturbances",|698|805
+"porosity",|667|668|441
+"hydraulic conductance",|667|672|256
+"iron",|643|666|273
+"strontium",|643|666|563
+"manganese",|643|666|321
+"zinc",|643|666|640
+"aluminum",|643|666|28
+"silicon",|643|666|505
+"modeling",|655|664|344
+"nitrogen cycling",|655|658|383|375
+"nitrogen limitation",|667|716|971
+"carbon flux",|667|205|90
+"plant communities",|799|114|424
+"plant height",|667|917|1004
+"shrews",|395|33|614|320|511|502
+"trapping",|655|664|596
+"seston",|395|500
+"fauna",|395|33|189
+"atmosphere",|694|18|48
+"denitrification",|655|658|383|375|142
+"microbial nitrogen",|643|666|372|964
+"roots",|395|433|477
+"invasive species",|799|541|269
+"vegetation dynamics",|651|172|427|613
+"urban",|667|673|609
+"riparian",|667|673|473
+"mapping",|655|664|323
+"lysimeters",|693|801|315
+"soil solution chemistry",|651|99|529
+"Soil",|694|535
+"Temperature",|667|668|579
+"Climate",|667|692|109
+"geographic information systems",|651|653|224
+"oxygen",|643|666|397
+"irrigation",|655|657|661|275
+"humans",|395|33|614|320|251
+"Plant ecology",|651|172|427
+"infiltration",|655|657|661|265
+"foliage",|395|433|206
+"lead",|643|666|287
+"sulfur",|643|666|569
+"Geography",|651|653
+"Landscape Change",|655|284
+"pollution",|643|436
+"Geographic Information Systems",|651|653|224
+"aerial imagery",|693|705|263|807
+"landscape",None
+"spatial methods",|693|705
+"land use",|667|673|280
+"land cover",|667|673|279
+"disturbance patterns",|667|712|165
+"species",|799|541
+"nitrous oxide",|643|666|372|373|380
+"turbidity",|667|691|606
+"bicarbonate",|643|666|86|63
+"estuaries",|173|41|182
+"oceans",|173|41|695
+"water column",|694|620
+"seawater",|694|701
+"food webs",|799|208
+"phaeopigments",|643|665|412
+"diatoms",|395|23|151
+"oceanography",|651|700
+"porewater",|643|617|440
+"salinity",|667|671|481
+"soil bulk density",|667|714|519
+"water properties",|667|691
+"bathymetry",|667|673|59
+"ocean currents",|655|657|386
+"sea level",|667|672|622|944
+"temporal properties",|667|670
+"water balance",|667|618
+"physical processes",|655|657
+"wave height",|667|672|622|959
+"ice",|694|262
+"winter",|667|670|636
+"moorings",|693|801|351
+"air",|694|18
+"distribution",None
+"transects",|693|801|594
+"tree seedlings",|395|433|498|997
+"nitrogen fixation",|655|658|383|375|377
+"amino acids",|643|665|29
+"bogs",|173|630|70
+"deuterium",|643|617|149
+"shapefiles",None
+"maps",None
+"boundaries",|667|673|308|899
+"basins",|694|58
+"locations",|667|673|308
+"species composition",|667|674|166|542
+"density",|667|668|916
+"tree rings",|395|433|951|1|599
+"dendrochronology",|651|67|140
+"browsing",|655|239|74
+"clearcuts",|173|798|212|2|107
+"stand density",|667|668|916|992
+"basal area",|667|917|56
+"pressure",None
+"inorganic nitrogen",|643|666|372|922
+"hydrogen",|643|666|933
+"soil pH",|667|671|410|988
+"floodplain",|173|630|197
+"boreal forests",|173|798|212|2|72
+"evaporation",|655|657|661|185|184
+"charcoal",|643|665|98
+"ions",|643|272
+"neutron probe",|693|801|366
+"digital elevation model",|693|705|152
+"allometry",|667|716|25
+"mesic soils",|694|535|331
+"humic soils",|694|535|252
+"dissolved inorganic nitrogen",|643|666|372|922|923
+"seedling establishment",|698|710|497
+"bark",|395|433|54
+"beetles",|395|33|271|45|267|60
+"pheromones",|643|665|414
+"bud burst",|698|710|901
+"subsidence",|655|657|660|564
+"peatland",|173|630|402
+"wetlands",|173|630
+"soil phosphorus",|643|666|416|987
+"fire severity",|667|712|194
+"remote sensing",|655|664|464
+"aboveground production",|655|656|449|5
+"net primary production",|655|656|449|447|363
+"treeline",|395|433|612|600
+"seeds",|395|433|499
+"log decomposition",|655|658|137|963
+"microtopography",|667|673|589|965
+"net radiation",|667|668|454|365
+"inventories",|270
+"lightning",|698|805|300
+"landscape change",|655|284
+"aboveground biomass",|667|716|68|4
+"actinorhizal plants",|395|433|790
+"phenolic compounds",|643|666|972
+"mycorrhizae",|395|218|358
+"fine root production",|655|656|449|903|904
+"predation",|655|656|544|444
+"forest floor",|694|213
+"organic nitrogen",|643|666|372|394
+"Bulk density",|667|668|77
+"soil samples",|693|801|989
+"litterfall",|655|656|305
+"incubation",|655|656|298|264
+"abundance",|667|674|6
+"chronosequences",|693|801|105
+"water quality",|667|691|623
+"secchi depth",|667|668|145|490
+"dunes",|173|798|171
+"paleoecology",|651|172|399
+"pollen",|395|433|435
+"agriculture",|651|17
+"deserts",|173|798|147
+"air quality",|667|692|21
+"air pollution",|643|436|19
+"ozone",|643|666|397|398
+"geography",|651|653
+"processes",None
+"biology",|651|67
+"surface elevation table",|693|801|706
+"land surface properties",|667|673|879
+"storms",|698|805|556
+"landsat",|693|705|263|806|282
+"atmospheric deposition",|655|657|659|49
+"normalized vegetation index",|667|716|381
+"buildings",|694|76
+"grasses",|395|433|951|230
+"organisms",None
+"deposition",|655|657|659|144
+"nitrogen deposition",|655|657|659|144|376
+"altitude",None
+"cores",|693|801|129
+"soil ph",|667|671|410|988
+"methods",None
+"larvae",|395|33|271|285
+"minimum temperature",|667|668|579|342
+"roads",|694|475
+"acidic",|667|671|11
+"imagery",|693|705|263
+"distance",None
+"disturbance properties",|667|712
+"drainage",|655|657|661|167
+"simulation",|655|664|344|507
+"nitric acid",|643|666|372|373|369
+"emissions",|667|205|178
+"colonization",|655|656|298|113
+"events",|698
+"antimony",|643|666|38
+"cadmium",|643|666|80
+"chromium",|643|666|104
+"copper",|643|666|126
+"dimensions",|667|668|153
+"nitrogen compounds",|643|666|372|373
+"physiology",|651|67|420
+"parasitism",|655|656|544|401
+"total phosphorus",|643|666|416|592
+"total nitrogen",|667|671|374|590
+"satellite imagery",|693|705|263|806
+"lizards",|395|33|614|466|307
+"soil disturbance",|655|657|660|522
+"LiDAR",|693|705|263|807|953
+"evapotranspiration",|655|657|661|185
+"transpiration",|655|657|661|185|595
+"pyranometers",|693|801|977
+"Disturbance Patterns",|667|712|165
+"leaf decomposition",|655|658|137|290
+"belowground biomass",|667|716|68|61
+"lidar",|693|705|263|807|953
+"size distribution",|509
+"marine",|173|41|695|325
+"Organic Matter",|643|393
+"CTD",|667|691|733
+"Primary Production",|655|656|449|447
+"hydrological properties",|667|672
+"taxonomy",|651|67|578
+"bacterial abundance",|667|674|6|52
+"hydrography",|667|673|258
+"microbes",|395|336
+"Inorganic Matter",|643|650
+"mammals",|395|33|614|320
+"ocean biogeochemistry",|651|65|385
+"ecosystem ecology",|651|172|675
+"scientific activities",|655|664
+"grazing",|655|239|233
+"plankton",|395|802
+"advection",|655|657|659|15
+"population and community properties",|667|674
+"biogeochemical processes",|655|658
+"Biodiversity",|651|64
+"Long Term",|667|670|311
+"Nitrogen limitation",|667|716|971
+"Nutrient Budgets",|667|716|382|1001
+"Nutrient Cycles",|667|716|382
+"Primary Productivity",None
+"Successional dynamics",|651|172|566
+"MOSSES",|395|433|354
+"FUNGI",|395|218
+"ROOTS",|395|433|477
+"LITTER",|643|665|302
+"DISTURBANCE",|655|662
+"forbs",|395|433|951|245|209
+"crops",|395|433|612|133
+"ants",|395|33|271|45|267|39
+"grasslands",|173|798|232
+"Agriculture",|651|17
+"Communities",|799|114
+"Ecosystems",|173
+"Litter",|643|665|302
+"Substrates",None
+"Harvesting",|655|239
+"Microbial Biomass",|667|716|68|339
+"Organisms",None
+"Modeling",|655|664|344
+"Acidic",|667|671|11
+"Leaves",|395|433|293
+"germination",|655|656|298|226
+"harvesting",|655|239
+"plant physiology",|651|67|420|430
+"nitrogen content",|667|671|374
+"rhizosphere",|694|472
+"net primary productivity",|667|716|450|364
+"ecosystem properties",|667|716
+"dispersal",|655|656|298|156
+"habitat selection",|655|656|298|237
+"seed dispersal",|655|656|298|156|495
+"seed banks",|395|433|612|494
+"throughfall",|667|672|443|585
+"Time Domain Reflectometry",|693|801|588
+"minirhizotrons",|693|801|966
+"diameter at breast height",|667|917|918
+"Population Dynamics",|651|172|438
+"survivorship",None
+"microarthropods",|395|33|271|45|335
+"cellulose",|643|665|95
+"consumers",|799|208|125
+"chlorine",|643|666|101
+"biogeography",|651|653|66
+"coordinates",|667|673|308|884
+"Nitrogen mineralization",|655|658|383|375|378
+"Tree growth",|655|656|298|236|597
+"hillslopes",|694|246
+"nitrogen flux",|667|205|911
+"root decomposition",|655|658|137|476
+"sand",|694|484
+"geology",|651|652
+"crayfishes",|395|33|271|134|131
+"human disturbance",|655|662|250
+"snails",|395|33|271|348|222|512
+"mollusks",|395|33|271|348
+"holocene",|667|670|249
+"inorganic matter",|643|650
+"periphyton",|395|433|407
+"marshes",|173|630|326
+"carbohydrates",|643|666|86|85
+"mangroves",|173|630|322
+"Total Phosphorus",|643|666|416|592
+"macroalgae",|395|23|316
+"Bulk Density",|667|668|77
+"Total Nitrogen",|667|671|374|590
+"Soil Nutrients",|643|665|384|526
+"nekton",|395|361
+"crustaceans",|395|33|271|134
+"sulfide",|643|666|569|568
+"seagrass",|395|433|951|230|1003
+"hammocks",|173|798|938
+"albedo",|667|668|460|897
+"physical properties",|667|668
+"respiration rates",|667|674|468
+"Salinity",|667|671|481
+"Dissolved oxygen",|643|666|397|161
+"Periphyton",|395|433|407
+"Diatoms",|395|23|151
+"redox",|667|671|459
+"Algae",|395|23
+"Restoration",|655|469
+"accretion",|655|657|660|7
+"Herbivory",|655|656|544|244
+"Freshwater",|694|216
+"Flux",None
+"Fluorescence",|667|668|202
+"Water",|643|617
+"Dissolved organic carbon",|643|666|86|160
+"Peatland",|173|630|402
+"Eddy Covariance",|655|657|659|174
+"Eddy Covariance",None
+"grasshoppers",|395|33|271|45|267|231
+"Inorganic Nutrients",|643|665|266
+"leucine",|643|665|29|296
+"crabs",|395|33|271|134|130
+"intertidal",|173|41|941
+"mud",|694|535|356
+"epifauna",|395|882|942
+"infauna",|395|882|943
+"ascomycetes",|395|218|46
+"slugs",|395|33|271|348|222|510
+"tides",|698|586
+"cesium",|643|666|97
+"Polychaetes",|395|33|271|42|894
+"Holocene",|667|670|249
+"salt marshes",|173|630|326|482
+"speciation",|655|656|186|540
+"morphology",None
+"evolution",|655|656|186
+"acid neutralizing capacity",|667|671|9
+"fluorine",|643|666|204
+"Plant biomass",|667|716|68|423
+"fluoride",|643|666|204|203
+"frost",|698|217
+"snow water equivalence",|694|513|803
+"belowground production",|655|656|449|903
+"Soil horizons",|694|535|523
+"Digital elevation model",|693|705|152
+"Altitude",None
+"hurricane damage",|667|712|255
+"acid rain",|643|436|10
+"extinction",|655|656|186|188
+"life history",|655|656|298
+"paleolimnology",|651|301|400
+"hurricanes",|698|805|254
+"defoliation",|655|239|138
+"geological processes",|655|657|660
+"fens",|173|630|926
+"dendrometers",|693|801|141
+"ferns",|395|433|951|190
+"hyporheic zone",|694|261
+"carbon monoxide",|643|666|86|91
+"sulfur hexafluoride",|643|666|204|203|570
+"analytical tools",|693|808
+"Vegetation Dynamics",|651|172|427|613
+"plant functional types",|693|705|973
+"termites",|395|33|271|45|267|580
+"Hydrology",|651|259
+"playa",|173|798|147|434
+"rabbits",|395|33|614|320|511|453
+"elements and compounds",|643|666
+"annual net primary production",|667|716|450|364|36
+"atmospheric processes",|655|657|659
+"atmospheric properties",|667|692
+"desertification",|655|284|146
+"mites",|395|33|271|45|267|343
+"biological events",|698|710
+"revegetation",|655|284|471
+"soil microarthropods",|395|33|271|45|335|524
+"Hydrologic Processes",|655|657|661
+"Herbivores",|799|208|125|243
+"Abundance",|667|674|6
+"Rain",|667|672|443|455
+"Consumers",|799|208|125
+"Irrigation",|655|657|661|275
+"Soil water content",|667|672|621|534
+"mowing",|655|239|355
+"spores",|395|218|550
+"Plants",|395|433
+"Diversity",|667|674|166
+"Reproduction",|655|656|298|465
+"Atmospheric Processes",|655|657|659
+"interception",|667|672|443|268
+"standing crop",|667|674|554
+"Physiological Processes",|655|800
+"disciplines",|651
+"adaptation",|655|656|186|14
+"biological processes",|655|656
+"organizational units",|799
+"substances",|643
+"electric exclusion",|655|664|175
+"Community dynamics",|651|172|116
+"biological substances",|643|665
+"basidiomycetes",|395|218|57
+"Methods",None
+"Animals",|395|33
+"Basidiomycetes",|395|218|57
+"field methods",|693|801
+"wet deposition",|655|657|659|144|629
+"physiological processes",|655|800
+"Leaf litter",|395|433|612|291
+"Macroinvertebrates",|395|33|271|318
+"mass balance",|655|664|328
+"thickness",|667|668|153|583
+"lake level",|667|672|622|277
+"dispersion",|655|657|157
+"community respiration",|655|685
+"hydrogen ions",|643|272|93|257
+"snow temperature",|667|668|579|516
+"hyporheic",|667|673|260
+"Marine",|173|41|695|325
+"Fishes",|395|33|614|196
+"Species Richness",|651|64|546
+"Alkalinity",|667|671|24
+"Oceanography",|651|700
+"Bacteria",|395|336|51
+"Coral reefs",|173|41|960|127
+"Ocean Acidification",|655|657|962
+"Symbiosis",|655|656|544|575
+"Coral Reefs",|173|41|960|127
+"Water Temperature",|667|668|579|625
+"Bathymetry",|667|673|59
+"coral reefs",|173|41|960|127
+"Corals",|395|33|271|128
+"corals",|395|33|271|128
+"Trophic Dynamics",|651|172|602
+"Sediments",|643|493
+"Accumulation",|655|8
+"Particulate organic carbon",|643|666|86|390|892
+"Zooplankton",|395|802|641
+"Recruitment",|698|710|458
+"Solar radiation",|667|668|454|536
+"Depth",|667|668|145
+"Dimensions",|667|668|153
+"Physical properties",|667|668
+"Photosynthesis",|655|800|417
+"Demography",|651|682
+"Growth",|655|656|298|236
+"Predation",|655|656|544|444
+"Surveys",|693|571
+"Reefs",|173|41|960
+"Respiration rates",|667|674|468
+"Physiology",|651|67|420
+"Species composition",|667|674|166|542
+"Conductivity",|667|668|176|122
+"Scattering",|655|657|487
+"Density",|667|668|916
+"Ocean Currents",|655|657|386
+"Pressure",None
+"Light",|667|668|454|299
+"Chlorophyll",|643|665|102
+"Ocean Color",|667|691|890
+"Water column",|694|620
+"Community composition",|667|674|115
+"ocean acidification",|655|657|962
+"Allometry",|667|716|25
+"Macroalgae",|395|23|316
+"Habitats",|799|238
+"Oceans",|173|41|695
+"Community Structure",|799|114|119
+"Wind speed",|667|692|633|635
+"Air Temperature",|667|668|579|22
+"Atmospheric pressure",|667|692|50
+"Meteorology",|651|333
+"Relative humidity",|667|692|611|253|463
+"Weather",|667|692|627
+"Wind direction",|667|692|633|634
+"CHLOROPHYLL",|643|665|102
+"Inorganic matter",|643|650
+"Stable Isotopes",|643|276|551
+"Carbon to nitrogen ratio",|667|671|92
+"Phytoplankton",|395|802|421
+"Grazing",|655|239|233
+"Population dynamics",|651|172|438
+"Trophic dynamics",|651|172|602
+"boron",|643|666|71
+"nickel",|643|666|367
+"Land use",|667|673|280
+"Census",|693|571|96
+"Limnology",|651|301
+"Rivers",|173|41|474
+"Invasive Species",|799|541|269
+"Benthos",|395|882
+"Invasive species",|799|541|269
+"Aquatic Ecosystems",|173|41
+"Metabolism",|655|800|332
+"Oxygen",|643|666|397
+"alpine",|173|798|26
+"Discharge",|655|657|661|154
+"Snow depth",|667|668|145|515
+"Water content",|667|672|621
+"montane",|173|798|350
+"bulk deposition",|655|657|659|144|78
+"dry deposition",|655|657|659|144|169
+"Elevation",|667|673|879|177
+"Hydrography",|667|673|258
+"Landsat",|693|705|263|806|282
+"TOPOGRAPHY",|667|673|589
+"DIGITAL ELEVATION MODEL",|693|705|152
+"MAPPING",|655|664|323
+"macrofauna",|395|33|189|317
+"polychaetes",|395|33|271|42|894
+"Stream Order",|667|672|560
+"Watersheds",|173|798|626
+"Land Use",|667|673|280
+"Dew Point",|667|692|150
+"Atmospheric Pressure",|667|692|50
+"Dew point",|667|692|150
+"Nitrate",|643|666|372|373|368
+"Organic Carbon",|643|666|86|390
+"Phosphate",|643|666|416|415
+"Radiation",|667|668|454
+"Ammonia",|643|666|372|373|30
+"Nitrite",|643|666|372|373|371
+"Photosynthetically Active Radiation",|667|668|454|418
+"kelp",|395|433|958
+"Genomics",|651|67|907
+"Genomics",|651|957
+"Nitrogen-15",|643|666|372|379
+"Humidity",|667|692|611|253
+"Solar Radiation",|667|668|454|536
+"Beaches",|173|798|955
+"Advection",|655|657|659|15
+"Species",|799|541
+"Irradiance",|667|668|274
+"Ammonium",|643|666|372|373|31
+"Stage Height",|667|672|622|553
+"Gross primary production",|655|656|449|447|905
+"Net primary production",|655|656|449|447|363
+"Species diversity",|651|64|543
+"Predators",|799|208|445
+"Crabs",|395|33|271|134|130
+"Gastropods",|395|33|271|348|222
+"Nitrogen Compounds",|643|666|372|373
+"Suspended Solids",|667|691|623|574
+"endangered species",|799|541|179
+"Droughts",|698|805|168
+"Grasslands",|173|798|232
+"Plant Growth",|655|656|449|428
+"Plant Phenology",|651|67|413|429
+"Plant Physiology",|651|67|420|430
+"morphometrics",|651|968
+"Climate Change",|651|333|111|110
+"Microbial biomass",|667|716|68|339
+"Cesium",|643|666|97
+"Landscape change",|655|284
+"beaches",|173|798|955
+"Water Quality",|667|691|623
+"barrier islands",|173|798|898
+"tree age",|667|917|996
+"Erosion",|655|657|660|181
+"Dispersal",|655|656|298|156
+"Pleistocene",|667|670|934
+"Standing crop",|667|674|554
