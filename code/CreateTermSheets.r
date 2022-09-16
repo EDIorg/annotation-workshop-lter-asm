@@ -58,6 +58,8 @@ openxlsx::write.xlsx(datasetsWideDf,"All_Keyword_Table.xlsx",asTable=T,colNames=
 datasetsWideDf$site<- sub("knb-lter-","",datasetsWideDf$packageid,ignore.case=T)
 datasetsWideDf$site<- gsub("[.][0-9]+[.][0-9]+","",datasetsWideDf$site)
 
+
+
 # add some new columns for adding terms
 datasetsWideDf$new_measurements<-""
 datasetsWideDf$new_processes<-""
@@ -70,8 +72,11 @@ datasetsWideDf$new_ecosystems<-""
 datasetsWideDf$new_events<-""
 datasetsWideDf$new_organizational_units<-""
 
+# and one to hold a hyperlink to be added later
+datasetsWideDf$link<-""
+
 # now put them in order
-datasetsWideDf<-datasetsWideDf[,c("packageid","title",
+datasetsWideDf<-datasetsWideDf[,c("link","packageid","title",
                                   "ecosystems","new_ecosystems",
                                   "processes","new_processes",
                                   "disciplines","new_disciplines",
@@ -85,6 +90,16 @@ datasetsWideDf<-datasetsWideDf[,c("packageid","title",
                                   "No_category","site")]
 
 datasetsWideDf$site<-toupper(datasetsWideDf$site)
+
+# make packageid a hypelink formula linking to edi for full documentation
+ urlhead<-"https://portal.edirepository.org/nis/metadataviewer?packageid="
+ #datasetsWideDf$hyperlink<-paste0(urlhead,datasetsWideDf$packageid)
+
+# datasetsWideDf$hyperlink<-paste0("=HYPERLINK(\"",
+#                                  paste(urlhead,datasetsWideDf$packageid,sep=""),
+#                                  "\", \"",
+#                                  datasetsWideDf$packageid,
+#                                  "\")")
 
 library(xlsx)
 rm(wb)
@@ -104,10 +119,14 @@ for (i in levels(as.factor(datasetsWideDf$site))){
 sheets<-xlsx::getSheets(wb)
 for (i in 1:31){
 xlsx::setColumnWidth(sheets[[i]], colIndex=1:ncol(datasetsWideDf), colWidth=25)
-xlsx::setColumnWidth(sheets[[i]], colIndex=2, colWidth=55)
-xlsx::setColumnWidth(sheets[[i]], colIndex=23, colWidth=60)
+xlsx::setColumnWidth(sheets[[i]], colIndex=1, colWidth=5)  
+xlsx::setColumnWidth(sheets[[i]], colIndex=2, colWidth=21)
+xlsx::setColumnWidth(sheets[[i]], colIndex=3, colWidth=55)
+xlsx::setColumnWidth(sheets[[i]], colIndex=24, colWidth=60)
 }
 xlsx::saveWorkbook(wb,"Keyword_Table_sheets.xlsx")
+
+
 
 # See if we can add some data validation, we'll need to go back to openxlsx for this one
 library(openxlsx)
@@ -117,41 +136,52 @@ validDf<-openxlsx::read.xlsx("KeywordsByTopCategory.xlsx",sheet=1)
 # add valids as a sheet
 openxlsx::addWorksheet(wb1,"valids")
 openxlsx::writeData(wb1,"valids",validDf)
+
+# Generate a vector containing hyperlink formulas for hyperlinks
+linkVector<-"HYPERLINK(CONCAT(\"https://portal.edirepository.org/nis/metadataviewer?packageid=\",B2),\"Link\")"
+for (j in 3:700){
+  linkVector<-c(linkVector,paste0('HYPERLINK(CONCAT(','"',urlhead,'",B',j,'),"Link")'))
+}
 # add validation for each category
 for (i in 1:31){
+#for (i in 1:3){
 # activeSheet(wb1)<-i
+  print(paste("working on sheet ",i,sep=" "))
+# add hyperlink to each row in sheet. Has to be done row by row so it is very slow
+      openxlsx::writeFormula(wb1,sheet=i,x=linkVector,startCol=1,startRow=2)
   # ecosystems
- openxlsx::dataValidation(wb1,sheet=i,cols=4,rows=2:700,showInputMsg=T,
+  openxlsx::dataValidation(wb1,sheet=i,cols=5,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$B$2:$B$37")
   # processes
- openxlsx::dataValidation(wb1,sheet=i,cols=6,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=7,rows=2:700,showInputMsg=T,
                            showErrorMsg=F,type="list",value="'valids'!$H$2:$H$137")
  #disciplines
- openxlsx::dataValidation(wb1,sheet=i,cols=8,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=9,rows=2:700,showInputMsg=T,
                            showErrorMsg=F,type="list",value="'valids'!$A$2:$A$54")
  # substances
- openxlsx::dataValidation(wb1,sheet=i,cols=10,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=11,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$I$2:$I$112")
  #measurements
- openxlsx::dataValidation(wb1,sheet=i,cols=12,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=13,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$D$2:$D$171")
  # methods
- openxlsx::dataValidation(wb1,sheet=i,cols=14,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=15,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$E$2:$E$35")
  # organisms
- openxlsx::dataValidation(wb1,sheet=i,cols=16,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=17,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$F$2:$F$98")
  # substrates
- openxlsx::dataValidation(wb1,sheet=i,cols=18,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=19,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$J$2:$J$29")
  # events
- openxlsx::dataValidation(wb1,sheet=i,cols=20,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=21,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$C$2:$C$19")
  #organizational units
- openxlsx::dataValidation(wb1,sheet=i,cols=22,rows=2:700,showInputMsg=T,
+ openxlsx::dataValidation(wb1,sheet=i,cols=23,rows=2:700,showInputMsg=T,
                           showErrorMsg=F,type="list",value="'valids'!$G$2:$G$16")
  
 }
 
 openxlsx::saveWorkbook(wb1,"Keyword_Table_sheets1.xlsx",overwrite=T)
 # you still need to edit the spreadsheet to change all the NA's to blanks
+
